@@ -1,0 +1,27 @@
+{
+  "name": "mfa-e2e",
+  "version": "1.0.6",
+  "description": "A Node.js package that generates MFA time bsaed one time token based on a secret which can be used in a end-to-end automated testing solution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexSun98/mfa.git"
+  },
+  "keywords": [
+    "mfa",
+    "e2e"
+  ],
+  "author": "alex.sun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexSun98/mfa/issues"
+  },
+  "homepage": "https://github.com/AlexSun98/mfa#readme",
+  "dependencies": {
+    "qr-image": "^3.2.0",
+    "speakeasy": "^2.0.0"
+  }
+}
